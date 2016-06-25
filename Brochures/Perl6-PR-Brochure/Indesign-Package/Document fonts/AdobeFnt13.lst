@@ -1,0 +1,129 @@
+%!Adobe-FontList 1.13
+%Locale:0x1009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CourierNewPSMT
+FamilyName:Courier New
+StyleName:Regular
+FullName:Courier New
+MenuName:Courier New
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUN24\Brochure\Indesign-Package\Document fonts\cour.ttf
+DataFormat:sfntData
+FileLength:709600
+FileModTime:1244666605
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:CourierNewPS-BoldMT
+FamilyName:Courier New
+StyleName:Bold
+FullName:Courier New Bold
+MenuName:Courier New
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUN24\Brochure\Indesign-Package\Document fonts\courbd.ttf
+DataFormat:sfntData
+FileLength:710192
+FileModTime:1244666605
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Bold
+FamilyName:Minion Pro
+StyleName:Bold
+FullName:Minion Pro Bold
+MenuName:Minion Pro
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUN24\Brochure\Indesign-Package\Document fonts\MinionPro-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:230912
+FileModTime:1265312834
+WeightClass:700
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-BoldIt
+FamilyName:Minion Pro
+StyleName:Bold Italic
+FullName:Minion Pro Bold Italic
+MenuName:Minion Pro
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUN24\Brochure\Indesign-Package\Document fonts\MinionPro-BoldIt.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:276632
+FileModTime:1265312834
+WeightClass:700
+WidthClass:5
+AngleClass:1
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-It
+FamilyName:Minion Pro
+StyleName:Italic
+FullName:Minion Pro Italic
+MenuName:Minion Pro
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUN24\Brochure\Indesign-Package\Document fonts\MinionPro-It.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:276140
+FileModTime:1265312834
+WeightClass:400
+WidthClass:5
+AngleClass:1
+DesignSize:110
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUN24\Brochure\Indesign-Package\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:231312
+FileModTime:1265312834
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+%EndFont
+
