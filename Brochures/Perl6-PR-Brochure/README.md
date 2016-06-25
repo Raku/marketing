@@ -7,6 +7,7 @@ Parts of this work are made available under different licenses. Please read all 
 The original and up-to-date brochure can be found at
 [https://github.com/wendyga/Perl6Brochure](https://github.com/wendyga/Perl6Brochure)
 
-The PDF version uses non-redistributable fonts that were *stripped* from the InDesign
+The PDF version uses non-redistributable fonts (it's fine to redistribute the PDF though)
+that were *stripped* from the InDesign
 source files. To request changes to the PDF with those fonts still in use,
 please [contact Zoffix Znet](https://twitter.com/zoffix)
