@@ -13,7 +13,7 @@ FamilyNameNative:
 StyleNameNative:
 FullNameNative:
 WritingScript:Cyrillic
-OutlineFileName:C:\Transfer\AUG28\poster\CommunityBugSquashathon-Sources\Document fonts\Helios.PFB
+OutlineFileName:C:\Transfer\AUG30\poster2\CommunityBugSquashathon-Sources\Document fonts\Helios.PFB
 DataFormat:Plain
 UsesStandardEncoding:no
 isCFF:no
@@ -27,7 +27,7 @@ Handler:DirectoryHandler
 FontType:PFM
 FontName:Helios
 NumMMAxes:0
-OutlineFileName:C:\Transfer\AUG28\poster\CommunityBugSquashathon-Sources\Document fonts\Helios.PFM
+OutlineFileName:C:\Transfer\AUG30\poster2\CommunityBugSquashathon-Sources\Document fonts\Helios.PFM
 FileLength:2742
 FileModTime:1334756292
 %EndFont
@@ -44,7 +44,7 @@ FamilyNameNative:
 StyleNameNative:
 FullNameNative:
 WritingScript:Cyrillic
-OutlineFileName:C:\Transfer\AUG28\poster\CommunityBugSquashathon-Sources\Document fonts\HeliosCompressed.PFB
+OutlineFileName:C:\Transfer\AUG30\poster2\CommunityBugSquashathon-Sources\Document fonts\HeliosCompressed.PFB
 DataFormat:Plain
 UsesStandardEncoding:no
 isCFF:no
@@ -58,7 +58,7 @@ Handler:DirectoryHandler
 FontType:PFM
 FontName:HeliosCompressed
 NumMMAxes:0
-OutlineFileName:C:\Transfer\AUG28\poster\CommunityBugSquashathon-Sources\Document fonts\HeliosCompressed.PFM
+OutlineFileName:C:\Transfer\AUG30\poster2\CommunityBugSquashathon-Sources\Document fonts\HeliosCompressed.PFM
 FileLength:1398
 FileModTime:1334756292
 %EndFont
