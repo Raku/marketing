@@ -1,0 +1,97 @@
+%!Adobe-FontList 1.13
+%Locale:0x1009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Helios-Bold
+FamilyName:Helios
+StyleName:Bold
+FullName:Helios Bold
+MenuName:Helios
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Transfer\SEP28\squash\CommunityBugSquashathon-Sources\Document fonts\HELIOS, BOLD.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:34189
+FileModTime:1334756292
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:Helios-Bold
+NumMMAxes:0
+OutlineFileName:C:\Transfer\SEP28\squash\CommunityBugSquashathon-Sources\Document fonts\HELIOS, BOLD.PFM
+FileLength:2299
+FileModTime:1334756292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Helios
+FamilyName:Helios
+FullName:Helios
+MenuName:Helios
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Transfer\SEP28\squash\CommunityBugSquashathon-Sources\Document fonts\Helios.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:33496
+FileModTime:1334756292
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:Helios
+NumMMAxes:0
+OutlineFileName:C:\Transfer\SEP28\squash\CommunityBugSquashathon-Sources\Document fonts\Helios.PFM
+FileLength:2742
+FileModTime:1334756292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HeliosCompressed
+FamilyName:HeliosCompressed
+FullName:HeliosCompressed
+MenuName:HeliosCompressed
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Transfer\SEP28\squash\CommunityBugSquashathon-Sources\Document fonts\HeliosCompressed.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:31416
+FileModTime:1334756292
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:HeliosCompressed
+NumMMAxes:0
+OutlineFileName:C:\Transfer\SEP28\squash\CommunityBugSquashathon-Sources\Document fonts\HeliosCompressed.PFM
+FileLength:1398
+FileModTime:1334756292
+%EndFont
+
