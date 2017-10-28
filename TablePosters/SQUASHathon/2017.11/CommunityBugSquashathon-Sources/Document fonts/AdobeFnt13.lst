@@ -1,0 +1,65 @@
+%!Adobe-FontList 1.13
+%Locale:0x1009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Helios
+FamilyName:Helios
+FullName:Helios
+MenuName:Helios
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\VBFlyers\Perl6\CommunityBugSquashathon\2017.11\CommunityBugSquashathon-Sources\Document fonts\Helios.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:33496
+FileModTime:1509188242
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:Helios
+NumMMAxes:0
+OutlineFileName:C:\VBFlyers\Perl6\CommunityBugSquashathon\2017.11\CommunityBugSquashathon-Sources\Document fonts\Helios.PFM
+FileLength:2742
+FileModTime:1509188242
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:HeliosCompressed
+FamilyName:HeliosCompressed
+FullName:HeliosCompressed
+MenuName:HeliosCompressed
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\VBFlyers\Perl6\CommunityBugSquashathon\2017.11\CommunityBugSquashathon-Sources\Document fonts\HeliosCompressed.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:31416
+FileModTime:1509188242
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:HeliosCompressed
+NumMMAxes:0
+OutlineFileName:C:\VBFlyers\Perl6\CommunityBugSquashathon\2017.11\CommunityBugSquashathon-Sources\Document fonts\HeliosCompressed.PFM
+FileLength:1398
+FileModTime:1509188242
+%EndFont
+
