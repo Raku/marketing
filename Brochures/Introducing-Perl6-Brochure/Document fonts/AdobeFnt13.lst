@@ -1,0 +1,250 @@
+%!Adobe-FontList 1.13
+%Locale:0x1009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ArialMT
+FamilyName:Arial
+StyleName:Regular
+FullName:Arial
+MenuName:Arial
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\arial.ttf
+DataFormat:sfntData
+FileLength:774236
+FileModTime:1450274914
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Black
+FamilyName:Muli
+StyleName:Black
+FullName:Muli Black
+MenuName:Muli Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-Black.ttf
+DataFormat:sfntData
+FileLength:95340
+FileModTime:1509370596
+WeightClass:900
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Bold
+FamilyName:Muli
+StyleName:Bold
+FullName:Muli Bold
+MenuName:Muli
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-Bold.ttf
+DataFormat:sfntData
+FileLength:93816
+FileModTime:1509370596
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-ExtraBold
+FamilyName:Muli
+StyleName:ExtraBold
+FullName:Muli ExtraBold
+MenuName:Muli ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-ExtraBold.ttf
+DataFormat:sfntData
+FileLength:95212
+FileModTime:1509370596
+WeightClass:800
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-ExtraLight
+FamilyName:Muli
+StyleName:ExtraLight
+FullName:Muli ExtraLight
+MenuName:Muli ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-ExtraLight.ttf
+DataFormat:sfntData
+FileLength:91508
+FileModTime:1509370596
+WeightClass:275
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Italic
+FamilyName:Muli
+StyleName:Italic
+FullName:Muli Italic
+MenuName:Muli
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-Italic.ttf
+DataFormat:sfntData
+FileLength:95880
+FileModTime:1509370596
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Light
+FamilyName:Muli
+StyleName:Light
+FullName:Muli Light
+MenuName:Muli Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-Light.ttf
+DataFormat:sfntData
+FileLength:93112
+FileModTime:1509370596
+WeightClass:300
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-LightItalic
+FamilyName:Muli
+StyleName:Light Italic
+FullName:Muli Light Italic
+MenuName:Muli Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-LightItalic.ttf
+DataFormat:sfntData
+FileLength:94556
+FileModTime:1509370596
+WeightClass:300
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Regular
+FamilyName:Muli
+StyleName:Regular
+FullName:Muli Regular
+MenuName:Muli
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-Regular.ttf
+DataFormat:sfntData
+FileLength:94320
+FileModTime:1509370596
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-SemiBold
+FamilyName:Muli
+StyleName:SemiBold
+FullName:Muli SemiBold
+MenuName:Muli SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\Muli-SemiBold.ttf
+DataFormat:sfntData
+FileLength:93672
+FileModTime:1509370596
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Bold
+FamilyName:Ubuntu Mono
+StyleName:Bold
+FullName:Ubuntu Mono Bold
+MenuName:Ubuntu Mono
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\UbuntuMono-B.ttf
+DataFormat:sfntData
+FileLength:191400
+FileModTime:1509585454
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Regular
+FamilyName:Ubuntu Mono
+StyleName:Regular
+FullName:Ubuntu Mono
+MenuName:Ubuntu Mono
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\UbuntuMono-R.ttf
+DataFormat:sfntData
+FileLength:205748
+FileModTime:1509585454
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Italic
+FamilyName:Ubuntu Mono
+StyleName:Italic
+FullName:Ubuntu Mono Italic
+MenuName:Ubuntu Mono
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV13\Introducing-Perl6-Brochure\Document fonts\UbuntuMono-RI.ttf
+DataFormat:sfntData
+FileLength:210216
+FileModTime:1509585454
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
