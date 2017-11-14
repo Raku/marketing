@@ -17,4 +17,6 @@ The design and digital copies are free. Printed copies may be sponsored by
 # LICENSE
 
 * **Original content** is licensed under [Creative Commons Attribution 4.0 International License](https://creativecommons.org/licenses/by/4.0/)
-* Logos (other than Perl 6), photos, and other third-party content may require additional authorization for use in modified works. Please obtain permission from the owners of that intellectual property.
+* Logos (other than [Perl 6's Camelia](https://raw.githubusercontent.com/perl6/mu/master/misc/camelia.txt)),
+    photos, and other third-party content may require additional authorization for use in modified works.
+    Please obtain permission from the owners of that intellectual property.
