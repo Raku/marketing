@@ -11,7 +11,7 @@ FullName:Muli Bold
 MenuName:Muli
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\Transfer\APR10\Resources-Card\Document fonts\Muli-Bold.ttf
+OutlineFileName:C:\Transfer\APR10\RC\Resources-Card\Document fonts\Muli-Bold.ttf
 DataFormat:sfntData
 FileLength:93816
 FileModTime:1509374196
@@ -30,7 +30,7 @@ FullName:Muli Italic
 MenuName:Muli
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:C:\Transfer\APR10\Resources-Card\Document fonts\Muli-Italic.ttf
+OutlineFileName:C:\Transfer\APR10\RC\Resources-Card\Document fonts\Muli-Italic.ttf
 DataFormat:sfntData
 FileLength:95880
 FileModTime:1509374196
@@ -49,7 +49,7 @@ FullName:Muli Light
 MenuName:Muli Light
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Transfer\APR10\Resources-Card\Document fonts\Muli-Light.ttf
+OutlineFileName:C:\Transfer\APR10\RC\Resources-Card\Document fonts\Muli-Light.ttf
 DataFormat:sfntData
 FileLength:93112
 FileModTime:1509374196
@@ -68,7 +68,7 @@ FullName:Muli Regular
 MenuName:Muli
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Transfer\APR10\Resources-Card\Document fonts\Muli-Regular.ttf
+OutlineFileName:C:\Transfer\APR10\RC\Resources-Card\Document fonts\Muli-Regular.ttf
 DataFormat:sfntData
 FileLength:94320
 FileModTime:1509374196
