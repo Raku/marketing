@@ -1,0 +1,351 @@
+$color-body: #f6f6f6;
+$bg-body: rgb(51, 51, 51);
+$color-warning: #ffc107;
+
+
+.flush-list {
+     padding-left: 15px;
+}
+ol.flush-list {
+    padding-left: 20px;
+}
+
+.shy-list {
+    padding-left: 0px;
+    list-style: none;
+}
+
+footer {
+    text-align: center;
+}
+
+footer {
+    padding-top: 20px;
+    padding-bottom: 30px;
+    a:before {
+        transition: opacity 2s;
+        opacity: .3;
+        width: 20px;
+        height: 20px;
+        vertical-align: middle;
+        display: inline-block;
+        margin-right: 4px;
+        content: "";
+        background: url(/asset/pics/irc-icon.svg) no-repeat right/20px;
+    }
+    a[href*="github.com"]:before {
+        background-image: url(/asset/pics/github-logo.svg);
+    }
+    a[href*="twitter.com"]:before {
+        background-image: url(/asset/pics/tw.svg);
+    }
+}
+footer:hover {
+    a:before {
+        transition: opacity .7s;
+        opacity: 1;
+    }
+}
+
+a,
+a:focus,
+a:hover {
+    outline: 0;
+    color: #fff;
+}
+
+.btn-secondary,
+.btn-secondary:hover,
+.btn-secondary:focus {
+      color: #333;
+      text-shadow: none;
+      background-color: #fff;
+      border: .05rem solid #fff;
+}
+
+html,
+body {
+    height: 100%;
+    background-color: #333;
+}
+
+body {
+    padding-top: 20px;
+    color: #fff;
+    text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
+}
+
+.footer {
+    padding-top: 20px;
+}
+
+.cover {
+    padding: 0 1.5rem;
+}
+.cover .btn-lg {
+    padding: .75rem 1.25rem;
+    font-weight: 700;
+}
+
+.mastfoot {
+    color: rgba(255, 255, 255, .5);
+}
+
+
+
+
+html {
+    overflow-y: scroll;
+}
+
+h2 {
+    text-align: center;
+}
+
+#content {
+    a:not(.btn) {
+        text-decoration: underline;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+        color: #aaa;
+    }
+    a:hover:not(.btn), a:active:not(.btn) {
+        text-decoration: none;
+    }
+}
+
+.icon{
+    width: 25px;
+    height: 25px;
+    use {
+        width: 25px;
+        height: 25px;
+        fill: currentColor;
+    }
+}
+
+.nb {
+    white-space: nowrap;
+}
+
+.downloads-panel {
+    img {
+        margin-bottom: 5px;
+    }
+    .download span {
+        display: block;
+        line-height: 1.2em;
+    }
+
+    .version {
+        font-weight: bold;
+        font-size: 120%;
+    }
+
+    > [class*="col-"] {
+        padding-bottom: 1rem;
+    }
+}
+
+code,
+pre, code {
+    color: darken($color-body, 30%);
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .5);
+}
+
+.jumbotron-wiry {
+    background: none;
+    border: 1px solid darken($color-body, 60%);
+    padding-top: 2rem;
+    padding-bottom: 1rem;
+}
+
+.accordion {
+    padding-bottom: 1rem;
+    .card-header {
+        padding: 0;
+    }
+    .btn-link {
+        text-decoration: none;
+        padding: 1rem;
+    }
+}
+
+
+.btn-secondary {
+    transition-property: background, border-color, text-shadow color;
+    transition-duration: .1s;
+}
+.btn-secondary:hover,
+.btn-secondary:active, {
+    background: #d3d3d3;
+    color: #222;
+    border-color: #bbb;
+    text-shadow: .1px .1px .1px rgba(0, 0, 0, .4);
+}
+
+.tighten-line-height {
+    line-height: 1em;
+}
+
+.alert-light {
+    text-align: center;
+    font-size: 80%;
+    background: darken($bg-body, 1%);
+}
+.alert-warning {
+    padding: .5rem .5rem .5rem 2.5rem;
+    position: relative;
+    font-size: 80%;
+    border-color: darken($color-warning, 25%)!important;
+    transition: border-color 1s, text-shadow 1s;
+    color: $color-warning;
+}
+.alert-warning:before {
+    content: '\e0d8';
+    font-family: 'Icons';
+    font-style: normal;
+    font-weight: normal;
+    line-height: 1em;
+    position: absolute;
+    left: .9rem;
+    top: 50%;
+    font-size: 1rem;
+    margin-top: -.6rem;
+    color: $color-warning;
+    opacity: .3;
+    transition: opacity 1s;
+}
+.alert-warning:hover {
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, .9);
+    border-color: darken($color-warning, 10%)!important;
+}
+.alert-warning:hover:before {
+    opacity: 1;
+}
+
+.bg-none {
+    background: none;
+}
+
+[class^="file-icon-"] {
+    padding-left: 25px;
+    min-height: 20px;
+    display: inline-block;
+    background: url(/asset/pics/file-icon-signature.png) no-repeat left;
+    background-size: auto 20px;
+}
+
+[class^="file-icon-windows"] {
+    background-image: url(/asset/pics/os-icon-windows.png)
+}
+
+[class^="file-icon-macos"] {
+    background-image: url(/asset/pics/os-icon-apple.png)
+}
+
+[class^="file-icon-source"] {
+    background-image: url(/asset/pics/os-icon-source.png)
+}
+
+.files-list {
+    td, th {
+        padding: 5px 10px;
+        vertical-align: middle;
+    }
+    .ver td {
+        padding-top: 13px;
+        padding-bottom: 3px;
+    }
+
+    td:first-child + td,
+    th:first-child + th {
+        opacity: .8;
+        font-size: 80%;
+    }
+}
+
+.archived {
+    display: none;
+}
+
+.text-warning, .alert-warning {
+    a {
+        color: inherit!important;
+    }
+}
+
+
+.need-help {
+    opacity: 0;
+}
+
+@media print {
+    header, footer {
+        display: none!important;
+    }
+    html, body, .cover-container.h-100 {
+        height: auto!important;
+        display: block!important
+    }
+    .container {
+        width: auto;
+    }
+
+    .row {
+        display: block;
+        [class*="col-"] {
+            display: block!important;
+            width: 100%!important;
+            max-width: 100%!important;
+        }
+    }
+    .card {
+        border: 0;
+        .card-body {
+            padding-left: 0;
+        }
+    }
+
+    .btn {
+        border: 0;
+        padding: 0;
+        display: inline;
+    }
+
+    a:after {
+        content: " ( " attr(href) " ) ";
+        color: #050;
+        font-size: 80%;
+    }
+
+    a[href^="/"]:after {
+        content: " ( https://rakudo.org/" attr(href) " ) ";
+    }
+    a[href^="#"]:after, a[href^="mailto:"]:after {
+        content: "";
+    }
+
+    .accordion {
+        .collapse {
+            display: block!important;
+        }
+
+        h5 button {
+            color: #000;
+            font-size: 1.4rem;
+            padding-left: 0!important;
+            padding-bottom: 0;
+            margin-left: 0!important;
+            background: 0;
+            border: 0;
+        }
+
+        .card-header {
+            border: 0;
+        }
+        .card-body {
+            padding-top: 0;
+        }
+    }
+}
+

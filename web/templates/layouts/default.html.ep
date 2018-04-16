@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:image"
+      content="<%= url_for('/asset/logo.png')->to_abs %>">
+    <meta name="twitter:image"
+      content="<%= url_for('/asset/logo.png')->to_abs %>">
+    <title>Marketing Materials for Perl 6 Programming Language</title>
+    %= asset 'app.css'
+    <link href="/favicon.ico" rel="shortcut icon" type="image/x-icon">
+  </head>
+
+  <body>
+    <div class="container">
+      <div id="content"><%= content %></div>
+      <footer class="mastfoot mt-auto">
+        <div class="inner">
+          <p><a href="https://github.com/rakudo/rakudo">rakudo/rakudo</a>
+            | <a href="https://twitter.com/perl6org">@perl6org</a>
+            | <a href="https://webchat.freenode.net/?channels=#perl6"
+              >#perl6</a>
+          </p>
+        </div>
+      </footer>
+    </div>
+    %= asset 'app.js'
+  </body>
+</html>
+

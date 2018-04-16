@@ -1,0 +1,8 @@
+% layout 'default';
+% title '500 - Server Error';
+
+<h2 class="h1">500 - Server Error</h2>
+<p>This shouldn't happen. Please <a
+  href="https://github.com/perl6/rakudo.org/issues/new">report this
+  problem</a>, explaining what you were trying to do when it occured.</p>
+

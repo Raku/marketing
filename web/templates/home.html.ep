@@ -1,0 +1,47 @@
+% layout 'default';
+% title 'Marketing Materials for Perl 6 Programming Language';
+
+<h2 class="h1"><%== p6 %> / <small>marketing</small></h2>
+
+%= include '_from-source-prereqs';
+
+<p class="alert alert-light border-dark" role="alert">
+  You can freely reproduce and use these materials to promote <%== p6 %>.
+  See <a href="https://github.com/perl6/marketing">the repository</a> for
+  licensing information of individual resources, if you wish to modify the materials or use them for some other purposes.
+</p>
+
+<div id="materials-accordion" class="accordion">
+  % for my $cat (items_in $materials) {
+    <div class="card bg-none">
+      <div class="card-header" id="<%= $cat->id %>">
+        <h5 class="mb-0">
+          <button class="btn btn-link collapsed btn-block text-left"
+            data-toggle="collapse" data-target="#collapse-<%= $cat->id %>"
+            aria-expanded="false" aria-controls="collapse-<%= $cat->id %>">
+            <%= $cat->name %>
+          </button>
+        </h5>
+      </div>
+      <div id="collapse-<%= $cat->id %>" class="collapse"
+          aria-labelledby="<%= $cat->id %>" data-parent="#materials-accordion">
+        <div class="card-body">
+          <div class="card-deck">
+            % for my $m (items_in $cat->materials) {
+              <div class="card bg-none">
+                <img class="card-img-top" src="" alt="Card image cap">
+                <div class="card-body">
+                  <h5 class="card-title"><%= $m->title %></h5>
+                  <p class="card-text"><%= $m->desc %></p>
+                </div>
+                <div class="card-footer">
+                  <small class="text-muted">Last updated 3 mins ago</small>
+                </div>
+              </div>
+            % }
+          </div>
+        </div>
+      </div>
+    </div>
+  % }
+</div>

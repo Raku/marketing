@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?><rss version="2.0"
+    xmlns:content="http://purl.org/rss/1.0/modules/content/"
+    xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:atom="http://www.w3.org/2005/Atom"
+    xmlns:sy="http://purl.org/rss/1.0/modules/syndication/"
+    xmlns:slash="http://purl.org/rss/1.0/modules/slash/"
+    xmlns:georss="http://www.georss.org/georss" xmlns:geo="http://www.w3.org/2003/01/geo/wgs84_pos#" xmlns:media="http://search.yahoo.com/mrss/"
+    >
+    <channel>
+    	<title>Rakudo Perl 6 Compiler</title>
+    	<atom:link href="<%= url_for('feed')->to_abs %>"
+            rel="self" type="application/rss+xml" />
+    	<link><%= url_for('home')->to_abs %></link>
+    	<description>Rakudo Perl 6 Compiler</description>
+    	<lastBuildDate><%= $last_update %></lastBuildDate>
+    	<language>en</language>
+        <image>
+    		<url><%= url_for('/asset/pics/logo.png')->to_abs %></url>
+    		<title>Perl 6 Compiler</title>
+    		<link><%= url_for('home')->to_abs %></link>
+    	</image>
+
+        % for my $post (@$posts) {
+        	<item>
+        		<title><%= $post->{title} %></title>
+        		<link><%= url_for(post => $post->{post})->to_abs %></link>
+        		<pubDate><%= $post->{date} %></pubDate>
+        		<guid isPermaLink="true"><%=
+                    url_for(post => $post->{post})->to_abs %></guid>
+        		<description><![CDATA[<%= $post->{desc} %>]]></description>
+        	</item>
+        % }
+    </channel>
+</rss>
