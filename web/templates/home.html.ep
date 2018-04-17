@@ -19,23 +19,36 @@
           <button class="btn btn-link collapsed btn-block text-left"
             data-toggle="collapse" data-target="#collapse-<%= $cat->id %>"
             aria-expanded="false" aria-controls="collapse-<%= $cat->id %>">
-            <%= $cat->name %>
+            <%= $cat->title %>
           </button>
         </h5>
       </div>
-      <div id="collapse-<%= $cat->id %>" class="collapse"
+      <div id="collapse-<%= $cat->id %>" class="collapse show"
           aria-labelledby="<%= $cat->id %>" data-parent="#materials-accordion">
         <div class="card-body">
-          <div class="card-deck">
+          <div class="card-group">
             % for my $m (items_in $cat->materials) {
-              <div class="card bg-none">
-                <img class="card-img-top" src="" alt="Card image cap">
+              <div class="card bg-none material-thumb">
+                % my @thumbs = items_in $m->thumbs;
+                <div class="thumbs-container">
+                  <img class="material-thumb bg-none"
+                      src="<%= url_for m => material => $thumbs[0] %>" alt="">
+                  <ul class="shy-list thumbs-list">
+                    % for (@thumbs) {
+                      <li>
+                        <img class="material-thumb bg-none"
+                          src="<%= url_for m => material => $_ %>" alt="">
+                      </li>
+                      <!-- % last; -->
+                    % }
+                  </ul>
+                </div>
                 <div class="card-body">
                   <h5 class="card-title"><%= $m->title %></h5>
                   <p class="card-text"><%= $m->desc %></p>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted">Last updated 3 mins ago</small>
+                  <small class="text-muted"></small>
                 </div>
               </div>
             % }

@@ -5,7 +5,7 @@ use Mojo::Collection qw/c/;
 use MarketingPerl6::Materials::Piece;
 use MarketingPerl6::Materials::Cat;
 
-has 'materials';
+has [qw/materials  root/];
 
 sub all {
     my ($self) = @_;
@@ -14,11 +14,24 @@ sub all {
     for (sort keys %mat) {
         push @cats, MarketingPerl6::Materials::Cat->new(
             name => $_,
-            materials => c map MarketingPerl6::Materials::Piece->new(%$_),
-                $mat{$_}->@*
+            materials => c map MarketingPerl6::Materials::Piece->new(
+                %$_, root => $self->root,
+            ), $mat{$_}->@*
         );
     }
     c @cats;
+}
+
+sub has_material {
+    my ($self, $material) = @_;
+    for my $cat ($self->all->@*) {
+        for my $m ($cat->materials->@*) {
+            for my $thumb ($m->thumbs->@*) {
+                return 1 if $material eq $thumb;
+            }
+        }
+    }
+    0;
 }
 
 1;

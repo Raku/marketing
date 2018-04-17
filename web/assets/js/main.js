@@ -1,35 +1,9 @@
 $(function(){
-    process_platform_specific_content();
-    setup_show_archived_versions_button();
     setup_accordion_scroller();
-    $(function () { $('[data-toggle="tooltip"]').tooltip() })
-
-    setTimeout(function() {
-        $('.need-help').removeClass('invisible').animate({opacity: 1});
-    }, 5000);
-    $(window).on('load', function() {
-        $('.preload').removeClass('preload');
-    });
-
-    setup_same_height();
-});
-
-function setup_same_height() {
-    $.fn.sameHeight = function() {
-        var max = {};
-        $(this).each(function(){
-            var h = $(this).outerHeight();
-            var o = $(this).offset().top;
-            if (max[o] === undefined) max[o] = 0
-            if ( h > max[o] ) { max[o] = h }
-        });
-        $(this).each(function(){
-            $(this).css('min-height', max[$(this).offset().top] + 'px')
-        });
+    if ( ! navigator.userAgent.match(/iPad/i) ) {
+        setup_thumbnailer();
     }
-
-    $('#alt-star .card-body, #files-rakudo-third-party .card-body').sameHeight();
-}
+});
 
 function setup_accordion_scroller() {
     $('.accordion').on('shown.bs.collapse', function() {
@@ -43,60 +17,63 @@ function setup_accordion_scroller() {
     });
 }
 
-function setup_show_archived_versions_button() {
-    $('.show-archived-versions').on('click', function(){
-        $(this).parents('table,.article-list').find('.archived')
-            .css({opacity: 0})
-            .removeClass('archived').animate({opacity: 1}, 1000);
-        $(this).remove();
-    });
-}
+function setup_thumbnailer () {
+    var imgs = $('img');
+    var loaded_imgs = 0;
+    var total_images = imgs.length;
+    imgs.each(function() {
+        $("<img>").attr("src", $(this).attr('src')).on('load',function() {
+            if (++loaded_imgs < total_images) return;
+            $('.thumbs-container').each(function(){
+                var c  = $(this);
+                var ul = c.find('.thumbs-list');
+                var h  = ul.find('li:first-child img');
+                var thumb_num = ul.find('img').length;
+                var half_offset = 0;
+                ul.find('img').each(function(){
+                    half_offset += $(this).width();
+                });
 
-function process_platform_specific_content() {
-    var fam    = query_param('platform', platform.os.family).toLowerCase(),
-        wanted = 'generic';
+                var thumb_offset = (
+                    $('body').width() - half_offset - thumb_num*10
+                )/thumb_num;
+                if (thumb_offset > 10) thumb_offset = 10;
 
-    if (fam.indexOf('windows') >= 0 && fam.indexOf('windows phone') == -1) {
-        wanted = 'windows';
-    }
-    else if (fam.match(/ubuntu|debian|fedora|red hat|suse|ios|android/)) {
-        wanted = fam.replace(/ /g, '_');
-    }
+                half_offset = (
+                    half_offset + thumb_offset*thumb_num - h.width()/2 - thumb_offset
+                )/2;
 
-    $('.platform-options').each(function(){
-        var show = $(this).find('[data-platform~=' + wanted + ']');
-        if (! show.length)
-            show = $(this).find('[data-platform~=generic]');
-        $('[data-platform]').css({position: 'absolute', left: '-9999px'});
-        show.css({position: 'static', left: 'auto'});
-    })
-
-    if ($('.downloads-panel [data-platform-mark~=' + wanted + ']').length) {
-        $('.downloads-panel [data-platform-mark]').each(function(){
-            if ($(this).attr('data-platform-mark').indexOf(wanted) >= 0) {
-                $(this).removeClass('btn-dark').addClass('btn-primary')
-                .next('a').removeClass('btn-dark').addClass('btn-warning');
-            }
+                c.on('mouseover', function() {
+                    var offset = 0;
+                    ul.css({left: 0, top: 0, visibility: 'visible'});
+                    ul.find('img').each(function(){
+                        var el = $(this);
+                        el.css({
+                            position: 'absolute',
+                            left: c.width()/2 + 'px',
+                            top: 0
+                        });
+                        el.animate({
+                            left: (half_offset-offset) + 'px',
+                            top: (-h.height()+10) + 'px'
+                        }, {
+                            duration: 900,
+                            queue: false,
+                            specialEasing: {
+                                top: "easeOutElastic",
+                                left: "easeOutElastic"
+                            }
+                        })
+                        offset += el.width() + thumb_offset;
+                    })
+                });
+                c.on('mouseout', function(){
+                    ul.css({
+                        visibility: 'hidden'
+                    })
+                })
+            });
         });
-    }
-    else {
-        $('.downloads-panel .download')
-            .removeClass('btn-dark').addClass('btn-primary')
-        .next('a')
-            .removeClass('btn-dark').addClass('btn-warning')
-    }
-}
+    });
 
-
-function query_param(wanted, or) {
-    var params = decodeURIComponent(
-        window.location.search.substring(1)
-    ).split('&'), name, i;
-
-    for (i = 0; i < params.length; i++) {
-        param = params[i].split('=');
-        if (param[0] === wanted)
-            return param[1] === undefined ? true : param[1]
-    }
-    return or;
 }

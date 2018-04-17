@@ -63,6 +63,10 @@ a:hover {
       border: .05rem solid #fff;
 }
 
+html {
+    overflow: scroll;
+}
+
 html,
 body {
     height: 100%;
@@ -70,7 +74,7 @@ body {
 }
 
 body {
-    padding-top: 20px;
+    padding-top: 40px;
     color: #fff;
     text-shadow: 0 .05rem .1rem rgba(0, 0, 0, .5);
 }
@@ -349,3 +353,59 @@ pre, code {
     }
 }
 
+.material-thumb {
+    .card-text,
+    .card-title,
+    .card-footer {
+        text-align: center;
+    }
+
+    .thumbs-container {
+        position: relative;
+        width: 282px;
+        margin: 10px auto;
+        text-align: center;
+
+        .thumbs-list {
+            visibility: hidden;
+            position: absolute;
+            z-index: 50;
+            top: 0;
+            li {
+                display: inline-block;
+                position: absolute;
+                left: 0;
+                top: 0;
+                img {
+                    max-width: 188px;
+                    max-height: 267px;
+                }
+            }
+        }
+        .material-thumb {
+            position: relative;
+            z-index: 100;
+        }
+        img {
+            max-width: 282px;
+            max-height: 400px;
+            display: block;
+            border-radius: 3px;
+            border: 1px solid lighten($bg-body, 5%);
+            box-shadow: 3px 3px 3px rgba(0, 0, 0, .3);
+        }
+    }
+
+/*    .thumbs-container:hover {
+        .thumbs-list {
+            visibility: visible;
+        }
+    }*/
+}
+
+#materials-accordion {
+    h5 button {
+        color: $color-body;
+        font-size: 140%;
+    }
+}

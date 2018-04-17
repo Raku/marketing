@@ -12,8 +12,10 @@ use MarketingPerl6::Materials;
 
 plugin Config => { file => 'conf.conf' };
 
+my $mat_root  = catfile app->home."", '..';
 my $materials = MarketingPerl6::Materials->new(
-    materials => app->config('materials')
+    materials => app->config('materials'),
+    root      => $mat_root,
 );
 
 plugin AssetPack => { pipes => [qw/Sass  JavaScript  Combine/] };
@@ -29,6 +31,7 @@ app->asset->process('app.js' => qw{
     https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js
 
     js/platform.js
+    js/jquery-ui.js
     js/main.js
 });
 
@@ -37,6 +40,14 @@ get '/' => sub {
     my $self = shift;
     $self->stash(materials => $materials->all);
 }, => 'home';
+
+get '/m/*material' => sub {
+    my $self = shift;
+    my $m = $self->stash('material');
+    $materials->has_material($m) or return $self->reply->not_found;
+    $self->reply->asset(
+        Mojo::Asset::File->new(path => path(catfile $mat_root, $m)));
+} => 'm';
 
 
 get 'irc' => sub {
