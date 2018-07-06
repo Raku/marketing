@@ -1,0 +1,117 @@
+%!Adobe-FontList 1.13
+%Locale:0x1009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Bold
+FamilyName:Muli
+StyleName:Bold
+FullName:Muli Bold
+MenuName:Muli
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUL6\v2--T1-await Folder\Document fonts\Muli-Bold.ttf
+DataFormat:sfntData
+FileLength:93816
+FileModTime:1509374196
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-ExtraLight
+FamilyName:Muli
+StyleName:ExtraLight
+FullName:Muli ExtraLight
+MenuName:Muli ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUL6\v2--T1-await Folder\Document fonts\Muli-ExtraLight.ttf
+DataFormat:sfntData
+FileLength:91508
+FileModTime:1509374196
+WeightClass:275
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-ExtraLightItalic
+FamilyName:Muli
+StyleName:ExtraLight Italic
+FullName:Muli ExtraLight Italic
+MenuName:Muli ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUL6\v2--T1-await Folder\Document fonts\Muli-ExtraLightItalic.ttf
+DataFormat:sfntData
+FileLength:92980
+FileModTime:1509374196
+WeightClass:275
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:PWCurvyregularscript
+FamilyName:PW Curvy regular script
+StyleName:Regular
+FullName:PW Curvy regular script
+MenuName:PW Curvy regular script
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUL6\v2--T1-await Folder\Document fonts\PW Curvy regular script.ttf
+DataFormat:sfntData
+FileLength:140168
+FileModTime:1379369690
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Bold
+FamilyName:Ubuntu Mono
+StyleName:Bold
+FullName:Ubuntu Mono Bold
+MenuName:Ubuntu Mono
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUL6\v2--T1-await Folder\Document fonts\UbuntuMono-B.ttf
+DataFormat:sfntData
+FileLength:191400
+FileModTime:1509589054
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Regular
+FamilyName:Ubuntu Mono
+StyleName:Regular
+FullName:Ubuntu Mono
+MenuName:Ubuntu Mono
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUL6\v2--T1-await Folder\Document fonts\UbuntuMono-R.ttf
+DataFormat:sfntData
+FileLength:205748
+FileModTime:1509589054
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
