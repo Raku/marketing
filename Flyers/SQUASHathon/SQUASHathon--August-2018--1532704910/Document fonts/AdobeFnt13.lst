@@ -1,0 +1,108 @@
+%!Adobe-FontList 1.13
+%Locale:0x1009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GalaxiePolaris-Bold
+FamilyName:Galaxie Polaris
+StyleName:Bold
+FullName:GalaxiePolaris-Bold
+MenuName:Galaxie Polaris Bold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUL27\SQUASHathon--August-2018--1532704910\Document fonts\GalaxiePolaris-Bold.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:251632
+FileModTime:1222612600
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:GalaxiePolaris-Book
+FamilyName:Galaxie Polaris
+StyleName:Book
+FullName:GalaxiePolaris-Book
+MenuName:Galaxie Polaris Book
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\JUL27\SQUASHathon--August-2018--1532704910\Document fonts\GalaxiePolaris-Book.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+FileLength:244692
+FileModTime:1222612638
+WeightClass:500
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Helios-Bold
+FamilyName:Helios
+StyleName:Bold
+FullName:Helios Bold
+MenuName:Helios
+StyleBits:2
+FamilyNameNative:
+StyleNameNative:Bold
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Transfer\JUL27\SQUASHathon--August-2018--1532704910\Document fonts\Helios, Bold.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:34189
+FileModTime:1334756292
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:Helios-Bold
+NumMMAxes:0
+OutlineFileName:C:\Transfer\JUL27\SQUASHathon--August-2018--1532704910\Document fonts\Helios, Bold.PFM
+FileLength:2299
+FileModTime:1334756292
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:Helios
+FamilyName:Helios
+FullName:Helios
+MenuName:Helios
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Transfer\JUL27\SQUASHathon--August-2018--1532704910\Document fonts\Helios.PFB
+DataFormat:Plain
+UsesStandardEncoding:no
+isCFF:no
+FileLength:33496
+FileModTime:1334756292
+DesignSize:-1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:PFM
+FontName:Helios
+NumMMAxes:0
+OutlineFileName:C:\Transfer\JUL27\SQUASHathon--August-2018--1532704910\Document fonts\Helios.PFM
+FileLength:2742
+FileModTime:1334756292
+%EndFont
+
