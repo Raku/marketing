@@ -49,6 +49,17 @@ get '/m/*material' => sub {
         Mojo::Asset::File->new(path => path(catfile $mat_root, $m)));
 } => 'm';
 
+get '/id/*id/*type' => sub {
+    my $self = shift;
+    my $id = $self->stash('id');
+    my $m = $materials->by_id($id) or return $self->reply->not_found;
+
+    my $type = $self->stash('type');
+    $m->has_type($type) or return $self->reply->not_found;
+    $self->reply->asset(
+        Mojo::Asset::File->new(
+            path => path(catfile $mat_root, $m->base, $m->$type())));
+} => 'by_id';
 
 get 'irc' => sub {
     shift->redirect_to('https://webchat.freenode.net/?channels=#perl6');

@@ -31,8 +31,10 @@
               <div class="col-md-6 col-lg-4 card bg-none material-thumb">
                 % my @thumbs = items_in $m->thumbs;
                 <div class="thumbs-container">
-                  <img class="img-fluid material-thumb bg-none"
+                  <a href="<%= url_for by_id => id => $m->id, type => 'any' %>">
+                    <img class="img-fluid material-thumb bg-none"
                       src="<%= url_for m => material => $thumbs[0] %>" alt="">
+                  </a>
                   <ul class="shy-list thumbs-list">
                     % for (@thumbs) {
                       <li>
@@ -44,10 +46,42 @@
                   </ul>
                 </div>
                 <div class="card-body">
-                  <h5 class="card-title"><%= $m->title %></h5>
+                  <h5 class="card-title"><%= $m->title %>
+                    <small class="text-muted">ID# <%= $m->id %></small></h5>
                 </div>
                 <div class="card-footer">
-                  <small class="text-muted"></small>
+                  <small class="text-muted">
+
+% if ($m->pdf_digital) {
+  <a class="btn btn-sm btn-info" href="<%= url_for by_id => id => $m->id,
+      type => 'pdf_digital' %>">Digital</a>
+% }
+% if ($m->pdf_print) {
+  <a class="btn btn-sm btn-primary" href="<%= url_for by_id => id => $m->id,
+      type => 'pdf_print' %>">Print</a>
+% }
+% if ($m->pdf_print_bleed) {
+  <a class="btn btn-sm btn-primary" href="<%= url_for by_id => id => $m->id,
+      type => 'pdf_print_bleed' %>">Print, bleed</a>
+% }
+% if ($m->pdf_print_US) {
+  <a class="btn btn-sm btn-primary" href="<%= url_for by_id => id => $m->id,
+      type => 'pdf_print_US' %>">Print, US</a>
+% }
+% if ($m->pdf_print_bleed_US) {
+  <a class="btn btn-sm btn-primary" href="<%= url_for by_id => id => $m->id,
+      type => 'pdf_print_bleed_US' %>">Print, US, bleed</a>
+% }
+% if ($m->img) {
+  <a class="btn btn-sm btn-success" href="<%= url_for by_id => id => $m->id,
+      type => 'img' %>">Image</a>
+% }
+% if ($m->img_square) {
+  <a class="btn btn-sm btn-success" href="<%= url_for by_id => id => $m->id,
+      type => 'img_square' %>">Image, square</a>
+% }
+
+                  </small>
                 </div>
               </div>
             <!-- </div> -->

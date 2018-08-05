@@ -6,12 +6,14 @@ use File::Spec::Functions qw/catfile/;
 use File::Glob qw/bsd_glob/;
 use Image::Size;
 
-has [qw/title  root  base  print_bleed  print  pdf  digital/];
-
-sub id {
-    my ($self) = @_;
-    'piece-' . ($self->title =~ s/\W/_/gr);
-}
+my @valid_types = qw/
+    pdf_digital
+    pdf_print_bleed     pdf_print
+    pdf_print_bleed_US  pdf_print_US
+    img  img_square
+/;
+my %valid_types = map +($_ => 1), 'any', @valid_types;
+has [qw/id title  root  base/, @valid_types];
 
 sub thumbs {
     my ($self) = @_;
@@ -21,6 +23,19 @@ sub thumbs {
             $_ =~ s{\Q$root\E/}{}r
         }
     );
+}
+
+sub has_type {
+    my ($self, $type) = @_;
+    return unless $valid_types{$type} and $self->$type();
+}
+
+sub any {
+    my $self = shift;
+    for (@valid_types) {
+        return $self->$_() if $self->$_()
+    }
+    return
 }
 
 1;

@@ -35,4 +35,14 @@ sub has_material {
     0;
 }
 
+sub by_id {
+    my ($self, $id) = @_;
+    for my $cat ($self->all->@*) {
+        for my $m ($cat->materials->@*) {
+            return $m if $m->id eq $id;
+        }
+    }
+    return;
+}
+
 1;
