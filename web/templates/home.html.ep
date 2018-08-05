@@ -23,7 +23,7 @@
           </button>
         </h5>
       </div>
-      <div id="collapse-<%= $cat->id %>" class="collapse show"
+      <div id="collapse-<%= $cat->id %>" class="collapse"
           aria-labelledby="<%= $cat->id %>" data-parent="#materials-accordion">
         <div class="card-body row">
           % for my $m (items_in $cat->materials) {
