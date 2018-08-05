@@ -56,9 +56,19 @@ get '/id/*id/*type' => sub {
 
     my $type = $self->stash('type');
     $m->has_type($type) or return $self->reply->not_found;
-    $self->reply->asset(
-        Mojo::Asset::File->new(
-            path => path(catfile $mat_root, $m->base, $m->$type())));
+
+    my $browser_name = (
+        ((
+            $m->title . '--' . $m->id . '--'
+            . ($type eq 'any' ? $m->any_type_name : $type)
+        ) =~ s/[^\w-]/-/gr) =~ s/^\W+//r
+    ) . ($m->$type() =~ /(\.[^.]+)$/)[0];
+
+    $self->res->headers->content_disposition(
+        'inline; filename="' . $browser_name . '"'
+    );
+    $self->reply->asset(Mojo::Asset::File->new(
+        path => path catfile $mat_root, $m->base, $m->$type()));
 } => 'by_id';
 
 get 'irc' => sub {

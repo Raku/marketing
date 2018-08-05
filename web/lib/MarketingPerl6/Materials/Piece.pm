@@ -30,6 +30,14 @@ sub has_type {
     return unless $valid_types{$type} and $self->$type();
 }
 
+sub any_type_name {
+    my $self = shift;
+    for (@valid_types) {
+        return $_ if $self->$_()
+    }
+    return
+}
+
 sub any {
     my $self = shift;
     for (@valid_types) {
