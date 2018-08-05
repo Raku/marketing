@@ -4,19 +4,20 @@ use Mojo::Base -base;
 use Mojo::Collection qw/c/;
 use MarketingPerl6::Materials::Piece;
 use MarketingPerl6::Materials::Cat;
+use List::MoreUtils qw/natatime/;
 
 has [qw/materials  root/];
 
 sub all {
     my ($self) = @_;
-    my %mat = $self->materials->%*;
+    my $it = natatime 2, $self->materials->@*;
     my @cats;
-    for (sort keys %mat) {
+    while (my @mat = $it->()) {
         push @cats, MarketingPerl6::Materials::Cat->new(
-            name => $_,
+            name => $mat[0],
             materials => c map MarketingPerl6::Materials::Piece->new(
                 %$_, root => $self->root,
-            ), $mat{$_}->@*
+            ), $mat[1]->@*
         );
     }
     c @cats;

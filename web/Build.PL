@@ -17,6 +17,7 @@ my $build = Module::Build->new(
       'File::Temp'                       => '0.2304',
       'File::Spec::Functions'            => 0,
       'IO::Socket::SSL'                  => '2.056',
+      'List::MoreUtils'                  => '0.428',
       'JavaScript::Minifier::XS'         => '0.11',
       'Mojo::Base'                       => '0',
       'Mojo::Collection'                 => '0',
