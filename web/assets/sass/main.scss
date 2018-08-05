@@ -417,3 +417,23 @@ pre, code {
         font-size: .7rem;
     }
 }
+
+.card-header button {
+    position: relative;
+    text-indent: 20px;
+    margin-left: 10px;
+}
+
+.card-header button:after {
+    font-family: 'Icons';
+    content: '\e09d';
+    font-size: 80%;
+    position: absolute;
+    top: 1.7ex;
+    left: -15px;
+    color: #ffc107;
+    margin-right: 10px;
+}
+.card-header button.collapsed:after {
+    content: '\e0aa';
+}
