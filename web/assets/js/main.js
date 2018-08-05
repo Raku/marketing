@@ -12,7 +12,8 @@ function setup_accordion_scroller() {
         var scroll = $(window).scrollTop();
         if (offset.top < scroll || offset.top + el.height()
             > scroll + $(window).height()) {
-            $('html, body').animate({ scrollTop: offset.top });
+            $('html, body').animate({
+                scrollTop: offset.top - $(this).find('h5').height() });
         }
     });
 }
