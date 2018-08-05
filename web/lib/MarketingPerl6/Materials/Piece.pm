@@ -6,7 +6,7 @@ use File::Spec::Functions qw/catfile/;
 use File::Glob qw/bsd_glob/;
 use Image::Size;
 
-has [qw/title  desc  root  base  print_bleed  print  pdf  digital/];
+has [qw/title  root  base  print_bleed  print  pdf  digital/];
 
 sub id {
     my ($self) = @_;
