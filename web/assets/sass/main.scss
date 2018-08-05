@@ -369,7 +369,7 @@ pre, code {
         .thumbs-list {
             visibility: hidden;
             position: absolute;
-            z-index: 50;
+            z-index: 150;
             top: 0;
             li {
                 display: inline-block;
@@ -401,5 +401,13 @@ pre, code {
     h5 button {
         color: $color-body;
         font-size: 140%;
+    }
+
+    .card-footer {
+        margin: 0 -15px;
+    }
+
+    .card-body .card-body {
+        padding: 0;
     }
 }

@@ -44,6 +44,7 @@ function setup_thumbnailer () {
                 )/2;
 
                 c.on('mouseover', function() {
+                    $(this).find('.material-thumb').css({'z-index': 200});
                     var offset = 0;
                     ul.css({left: 0, top: 0, visibility: 'visible'});
                     ul.find('img').each(function(){
@@ -68,6 +69,7 @@ function setup_thumbnailer () {
                     })
                 });
                 c.on('mouseout', function(){
+                    $(this).find('.material-thumb').css({'z-index': 100});
                     ul.css({
                         visibility: 'hidden'
                     })

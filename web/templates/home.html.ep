@@ -25,18 +25,18 @@
       </div>
       <div id="collapse-<%= $cat->id %>" class="collapse show"
           aria-labelledby="<%= $cat->id %>" data-parent="#materials-accordion">
-        <div class="card-body">
-          <div class="card-group">
-            % for my $m (items_in $cat->materials) {
-              <div class="card bg-none material-thumb">
+        <div class="card-body row">
+          % for my $m (items_in $cat->materials) {
+            <!-- <div class="col-sm-4"> -->
+              <div class="col-md-6 col-lg-4 card bg-none material-thumb">
                 % my @thumbs = items_in $m->thumbs;
                 <div class="thumbs-container">
-                  <img class="material-thumb bg-none"
+                  <img class="img-fluid material-thumb bg-none"
                       src="<%= url_for m => material => $thumbs[0] %>" alt="">
                   <ul class="shy-list thumbs-list">
                     % for (@thumbs) {
                       <li>
-                        <img class="material-thumb bg-none"
+                        <img class="img-fluid material-thumb bg-none"
                           src="<%= url_for m => material => $_ %>" alt="">
                       </li>
                       <!-- % last; -->
@@ -45,14 +45,13 @@
                 </div>
                 <div class="card-body">
                   <h5 class="card-title"><%= $m->title %></h5>
-                  <p class="card-text"><%= $m->desc %></p>
                 </div>
                 <div class="card-footer">
                   <small class="text-muted"></small>
                 </div>
               </div>
-            % }
-          </div>
+            <!-- </div> -->
+          % }
         </div>
       </div>
     </div>
