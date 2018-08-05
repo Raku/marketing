@@ -18,7 +18,7 @@
       <div id="content"><%= content %></div>
       <footer class="mastfoot mt-auto">
         <div class="inner">
-          <p><a href="https://github.com/rakudo/rakudo">rakudo/rakudo</a>
+          <p><a href="https://github.com/perl6/marketing">perl6/marketing</a>
             | <a href="https://twitter.com/perl6org">@perl6org</a>
             | <a href="https://webchat.freenode.net/?channels=#perl6"
               >#perl6</a>
