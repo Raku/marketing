@@ -10,7 +10,7 @@ my @valid_types = qw/
     pdf_digital
     pdf_print_bleed     pdf_print
     pdf_print_bleed_US  pdf_print_US
-    img  img_square
+    img  img_square  ai  svg  ico
 /;
 my %valid_types = map +($_ => 1), 'any', @valid_types;
 has [qw/id title  root  base/, @valid_types];

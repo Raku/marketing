@@ -80,6 +80,18 @@
   <a class="btn btn-sm btn-success" href="<%= url_for by_id => id => $m->id,
       type => 'img_square' %>">Image, square</a>
 % }
+% if ($m->ai) {
+  <a class="btn btn-sm btn-warning" href="<%= url_for by_id => id => $m->id,
+      type => 'ai' %>">AI</a>
+% }
+% if ($m->svg) {
+  <a class="btn btn-sm btn-warning" href="<%= url_for by_id => id => $m->id,
+      type => 'svg' %>">SVG</a>
+% }
+% if ($m->ico) {
+  <a class="btn btn-sm btn-warning" href="<%= url_for by_id => id => $m->id,
+      type => 'ico' %>">ICO</a>
+% }
 
                   </small>
                 </div>
