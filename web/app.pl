@@ -55,6 +55,8 @@ get '/id/*id/*type' => sub {
     my $m = $materials->by_id($id) or return $self->reply->not_found;
 
     my $type = $self->stash('type');
+    return $self->redirect_to($m->repo_url) if $type eq 'repo';
+
     $m->has_type($type) or return $self->reply->not_found;
 
     my $browser_name = (

@@ -46,4 +46,8 @@ sub any {
     return
 }
 
+sub repo_url {
+    'https://github.com/perl6/marketing/tree/master/' . shift->base
+}
+
 1;
