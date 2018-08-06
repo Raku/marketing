@@ -51,8 +51,6 @@
                 </div>
                 <div class="card-footer">
                   <small class="text-muted">
-<a href="<%= url_for by_id => id => $m->id, type => 'repo' %>" title="Repo"
-    class="btn btn-sm btn-danger"><img src="/asset/pics/github-logo.svg" width=20 alt="repo"></a>
 % if ($m->pdf_digital) {
   <a class="btn btn-sm btn-info" href="<%= url_for by_id => id => $m->id,
       type => 'pdf_digital' %>">Digital</a>
@@ -93,6 +91,12 @@
   <a class="btn btn-sm btn-warning" href="<%= url_for by_id => id => $m->id,
       type => 'ico' %>">ICO</a>
 % }
+
+<a href="<%= url_for by_id => id => $m->id, type => 'repo' %>"
+    title="View files in the repo"
+    class="btn btn-sm btn-danger"><img src="/asset/pics/github-logo.svg" width=20 alt="repo"></a>
+<a class="btn btn-sm btn-danger" href="<%= $m->new_request_url %>"
+    title="Submit a request regarding this asset"><span class="oi oi-pencil"></span></a>
 
                   </small>
                 </div>

@@ -409,8 +409,13 @@ pre, code {
     .card-body .card-body {
         padding: 0;
     }
-    .card-footer .btn {
-        margin-bottom: 4px;
+    .card-footer {
+        .btn {
+            margin-bottom: 4px;
+        }
+        * {
+            color: black;
+        }
     }
     .card-title small {
         display: block;

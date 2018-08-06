@@ -5,6 +5,7 @@ use Mojo::Collection qw/c/;
 use File::Spec::Functions qw/catfile/;
 use File::Glob qw/bsd_glob/;
 use Image::Size;
+use URL::Encode qw/url_encode/;
 
 my @valid_types = qw/
     pdf_digital
@@ -48,6 +49,12 @@ sub any {
 
 sub repo_url {
     'https://github.com/perl6/marketing/tree/master/' . shift->base
+}
+
+sub new_request_url {
+    my $self = shift;
+    'https://github.com/perl6/marketing/issues/new?title='
+        . url_encode 'Request for ID# ' . $self->id . ' / ' . $self->title
 }
 
 1;

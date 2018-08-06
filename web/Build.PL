@@ -33,6 +33,7 @@ my $build = Module::Build->new(
       'Text::MultiMarkdown'              => '1.000035',
       'Test::Most'                       => '0.35',
       'Time::Moment'                     => '0.43',
+      'URL::Encode'                      => '0.03',
       'warnings'                         => '0',
     }
 );
