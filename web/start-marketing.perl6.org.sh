@@ -15,12 +15,11 @@ cp start-marketing.perl6.org.sh  ../
 if [ "$before" != "$after" ]
 then
     echo "Got new commits"
-    if [[ `git log "$before"..."$after" --oneline` =~ '[REAPP]' ]]; then
-        echo "Restarting app"
-        set +e
-        hypnotoad app.pl
-        set -e
-    fi
 fi
+
+echo "Starting the app"
+set +e
+hypnotoad app.pl
+set -e
 
 echo 'Done'
