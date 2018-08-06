@@ -1,7 +1,7 @@
 $(function(){
     setup_accordion_scroller();
     if ( ! navigator.userAgent.match(/iPad/i) ) {
-        setup_thumbnailer();
+        // setup_thumbnailer();
     }
 });
 
