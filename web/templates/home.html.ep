@@ -8,7 +8,7 @@
     <h2 class="h1"><%== p6 %> / <small>marketing</small>
       <a href="https://github.com/perl6/marketing/issues/new?title=New+Request"
         class="btn btn-sm btn-primary">
-        Make a design request
+        Make a free design request
       </a>
     </h2>
     <p class="alert alert-light border-dark" role="alert">
