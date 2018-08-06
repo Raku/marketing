@@ -15,10 +15,6 @@ ol.flush-list {
     list-style: none;
 }
 
-h2 {
-    text-align: center;
-}
-
 footer {
     text-align: center;
 }
@@ -189,41 +185,6 @@ pre, code {
 
 .tighten-line-height {
     line-height: 1em;
-}
-
-.alert-light {
-    font-size: 80%;
-    background: darken($bg-body, 1%);
-}
-.alert-warning {
-    padding: .5rem .5rem .5rem 2.5rem;
-    position: relative;
-    font-size: 80%;
-    border-color: darken($color-warning, 25%)!important;
-    transition: border-color 1s, text-shadow 1s;
-    color: $color-warning;
-}
-.alert-warning:before {
-    content: '\e0d8';
-    font-family: 'Icons';
-    font-style: normal;
-    font-weight: normal;
-    line-height: 1em;
-    position: absolute;
-    left: .9rem;
-    top: 50%;
-    font-size: 1rem;
-    margin-top: -.6rem;
-    color: $color-warning;
-    opacity: .3;
-    transition: opacity 1s;
-}
-.alert-warning:hover {
-    text-shadow: 1px 1px 1px rgba(0, 0, 0, .9);
-    border-color: darken($color-warning, 10%)!important;
-}
-.alert-warning:hover:before {
-    opacity: 1;
 }
 
 .bg-none {
@@ -442,4 +403,41 @@ pre, code {
 }
 .card-header button.collapsed:after {
     content: '\e0aa';
+}
+
+#lead-block {
+    .alert-light {
+        font-size: 80%;
+        background: darken($bg-body, 1%);
+    }
+    .alert-warning {
+        padding: .5rem .5rem .5rem 2.5rem;
+        position: relative;
+        font-size: 80%;
+        border-color: darken($color-warning, 25%)!important;
+        transition: border-color 1s, text-shadow 1s;
+        color: $color-warning;
+    }
+    .alert-warning:before {
+        content: '\e0d8';
+        font-family: 'Icons';
+        font-style: normal;
+        font-weight: normal;
+        line-height: 1em;
+        position: absolute;
+        left: .9rem;
+        top: 50%;
+        font-size: 1rem;
+        margin-top: -.6rem;
+        color: $color-warning;
+        opacity: .3;
+        transition: opacity 1s;
+    }
+    .alert-warning:hover {
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, .9);
+        border-color: darken($color-warning, 10%)!important;
+    }
+    .alert-warning:hover:before {
+        opacity: 1;
+    }
 }

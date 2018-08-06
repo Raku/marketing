@@ -1,15 +1,26 @@
 % layout 'default';
 % title 'Marketing Materials for Perl 6 Programming Language';
 
-<h2 class="h1"><%== p6 %> / <small>marketing</small></h2>
-
 %= include '_from-source-prereqs';
 
-<p class="alert alert-light border-dark" role="alert">
-  You can freely reproduce and use these materials to promote <%== p6 %>.
-  See <a href="https://github.com/perl6/marketing">the repository</a> for
-  licensing information of individual resources, if you wish to modify the materials or use them for some other purposes.
-</p>
+<div id="lead-block" class="row mb-4">
+  <div class="col-md-9">
+    <h2 class="h1"><%== p6 %> / <small>marketing</small>
+      <a href="https://github.com/perl6/marketing/issues/new?title=New+Request"
+        class="btn btn-sm btn-primary">
+        Make a design request
+      </a>
+    </h2>
+    <p class="alert alert-light border-dark" role="alert">
+      You can freely reproduce and use these materials to promote <%== p6 %>.
+      See <a href="https://github.com/perl6/marketing">the repository</a> for
+      licensing information of individual resources, if you wish to modify the materials or use them for some other purposes.
+    </p>
+  </div>
+    <div class="col-md-3">
+    <img src="/asset/pics/logo.png" alt="">
+  </div>
+</div>
 
 <div id="materials-accordion" class="accordion">
   % for my $cat (items_in $materials) {
