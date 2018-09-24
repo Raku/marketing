@@ -11,7 +11,7 @@ FullName:Muli Bold
 MenuName:Muli
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105\Document fonts\Muli-Bold.ttf
+OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105-2\Document fonts\Muli-Bold.ttf
 DataFormat:sfntData
 FileLength:93816
 FileModTime:1509374196
@@ -30,7 +30,7 @@ FullName:Muli ExtraLight
 MenuName:Muli ExtraLight
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105\Document fonts\Muli-ExtraLight.ttf
+OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105-2\Document fonts\Muli-ExtraLight.ttf
 DataFormat:sfntData
 FileLength:91508
 FileModTime:1509374196
@@ -49,7 +49,7 @@ FullName:Muli ExtraLight Italic
 MenuName:Muli ExtraLight
 StyleBits:1
 WritingScript:Roman
-OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105\Document fonts\Muli-ExtraLightItalic.ttf
+OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105-2\Document fonts\Muli-ExtraLightItalic.ttf
 DataFormat:sfntData
 FileLength:92980
 FileModTime:1509374196
@@ -68,7 +68,7 @@ FullName:Muli Regular
 MenuName:Muli
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105\Document fonts\Muli-Regular.ttf
+OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105-2\Document fonts\Muli-Regular.ttf
 DataFormat:sfntData
 FileLength:94320
 FileModTime:1509374196
@@ -87,7 +87,7 @@ FullName:PW Curvy regular script
 MenuName:PW Curvy regular script
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105\Document fonts\PW Curvy regular script.ttf
+OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105-2\Document fonts\PW Curvy regular script.ttf
 DataFormat:sfntData
 FileLength:140168
 FileModTime:1379369690
@@ -109,7 +109,7 @@ FamilyNameNative:
 StyleNameNative:Regular
 FullNameNative:
 WritingScript:Cyrillic
-OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105\Document fonts\Symbola.ttf
+OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105-2\Document fonts\Symbola.ttf
 DataFormat:sfntData
 FileLength:1979720
 FileModTime:1337395676
@@ -128,7 +128,7 @@ FullName:Ubuntu Mono Bold
 MenuName:Ubuntu Mono
 StyleBits:2
 WritingScript:Roman
-OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105\Document fonts\UbuntuMono-B.ttf
+OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105-2\Document fonts\UbuntuMono-B.ttf
 DataFormat:sfntData
 FileLength:191400
 FileModTime:1509589054
@@ -147,7 +147,7 @@ FullName:Ubuntu Mono
 MenuName:Ubuntu Mono
 StyleBits:0
 WritingScript:Roman
-OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105\Document fonts\UbuntuMono-R.ttf
+OutlineFileName:C:\Transfer\SEP24\T5-Atomics--1537803105-2\Document fonts\UbuntuMono-R.ttf
 DataFormat:sfntData
 FileLength:205748
 FileModTime:1509589054
