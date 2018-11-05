@@ -1,0 +1,177 @@
+%!Adobe-FontList 1.13
+%Locale:0x1009
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Bold
+FamilyName:Muli
+StyleName:Bold
+FullName:Muli Bold
+MenuName:Muli
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\Muli-Bold.ttf
+DataFormat:sfntData
+FileLength:93816
+FileModTime:1509370596
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Italic
+FamilyName:Muli
+StyleName:Italic
+FullName:Muli Italic
+MenuName:Muli
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\Muli-Italic.ttf
+DataFormat:sfntData
+FileLength:95880
+FileModTime:1509370596
+WeightClass:400
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-LightItalic
+FamilyName:Muli
+StyleName:Light Italic
+FullName:Muli Light Italic
+MenuName:Muli Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\Muli-LightItalic.ttf
+DataFormat:sfntData
+FileLength:94556
+FileModTime:1509370596
+WeightClass:300
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-Regular
+FamilyName:Muli
+StyleName:Regular
+FullName:Muli Regular
+MenuName:Muli
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\Muli-Regular.ttf
+DataFormat:sfntData
+FileLength:94320
+FileModTime:1509370596
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-SemiBold
+FamilyName:Muli
+StyleName:SemiBold
+FullName:Muli SemiBold
+MenuName:Muli SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\Muli-SemiBold.ttf
+DataFormat:sfntData
+FileLength:93672
+FileModTime:1509370596
+WeightClass:600
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Muli-SemiBoldItalic
+FamilyName:Muli
+StyleName:SemiBold Italic
+FullName:Muli SemiBold Italic
+MenuName:Muli SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\Muli-SemiBoldItalic.ttf
+DataFormat:sfntData
+FileLength:95264
+FileModTime:1509370596
+WeightClass:600
+WidthClass:5
+AngleClass:1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:Symbola
+FamilyName:Symbola
+StyleName:Regular
+FullName:Symbola
+MenuName:Symbola
+StyleBits:0
+FamilyNameNative:
+StyleNameNative:Regular
+FullNameNative:
+WritingScript:Cyrillic
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\Symbola.ttf
+DataFormat:sfntData
+FileLength:1979720
+FileModTime:1337392076
+WeightClass:400
+WidthClass:4
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Bold
+FamilyName:Ubuntu Mono
+StyleName:Bold
+FullName:Ubuntu Mono Bold
+MenuName:Ubuntu Mono
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\UbuntuMono-B.ttf
+DataFormat:sfntData
+FileLength:191400
+FileModTime:1509585454
+WeightClass:700
+WidthClass:5
+AngleClass:0
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:UbuntuMono-Regular
+FamilyName:Ubuntu Mono
+StyleName:Regular
+FullName:Ubuntu Mono
+MenuName:Ubuntu Mono
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Transfer\NOV4\6.d-release-brochure-1541379592\6.d-release-brochure-1541379592\Document fonts\UbuntuMono-R.ttf
+DataFormat:sfntData
+FileLength:205748
+FileModTime:1509585454
+WeightClass:400
+WidthClass:5
+AngleClass:0
+%EndFont
+
