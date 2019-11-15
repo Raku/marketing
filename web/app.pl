@@ -74,7 +74,7 @@ get '/id/*id/*type' => sub {
 } => 'by_id';
 
 get 'irc' => sub {
-    shift->redirect_to('https://webchat.freenode.net/?channels=#perl6');
+    shift->redirect_to('https://webchat.freenode.net/?channels=#raku');
 } => 'irc';
 
 any $_ => sub {
@@ -100,7 +100,7 @@ helper icon_for => sub {
     my ($self, $path) = @_;
     $exts{($path =~ /(.[^.]+)$/)[0]//''}//''
 };
-helper p6 => sub { '<span class="nb">Perl 6</span>' };
+helper p6 => sub { '<span class="nb">Raku</span>' };
 helper items_in => sub {
     my ($c, $what ) = @_;
     return unless defined $what;
@@ -115,4 +115,3 @@ app->start;
 #     return Time::Moment->from_string("${date}T00:00:00Z")
 #         ->strftime("%a, %d %b %Y %H:%M:%S %z");
 # }
-

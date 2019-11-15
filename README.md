@@ -1,7 +1,7 @@
-# Marketing Resources for Perl 6 Language
+# Marketing Resources For The Raku Language
 
 This repository contains brochures and various assets useful for marketing
-the Perl 6 language.
+the Raku language.
 
 --------
 

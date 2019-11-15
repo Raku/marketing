@@ -1,5 +1,5 @@
 % layout 'default';
-% title 'Marketing Materials for Perl 6 Programming Language';
+% title 'Marketing Materials For The Raku Programming Language';
 
 %= include '_from-source-prereqs';
 

@@ -20,7 +20,7 @@
         <div class="inner">
           <p><a href="https://github.com/perl6/marketing">perl6/marketing</a>
             | <a href="https://twitter.com/perl6org">@perl6org</a>
-            | <a href="https://webchat.freenode.net/?channels=#perl6"
+            | <a href="https://webchat.freenode.net/?channels=#raku"
               >#perl6</a>
           </p>
         </div>
@@ -29,4 +29,3 @@
     %= asset 'app.js'
   </body>
 </html>
-
